@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="registrationPage.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="page">
+        <header>
+            <p><strong> facebook</strong></p>
+            <form method="POST" action="file.php" id="header-connexion">
+                <div class="ajuste">
+                    <div>
+                        <label for="mail">Adresse e-mail ou mobile <br></label>
+                        <input type="email" name="mail" id="mail">
+                    </div>
+                    <div>
+                        <label for="cle1"> Mot de passe <br></label>
+                        <input type="password" name="cle1" id="cle1">
+                        <p> <a href=".">Informations de compte oubliées ?</a></p>
+                    </div>
+                    <input type="submit" value="Connexion" name="OK" id="OK">
+                </div>
+
+            </form>
+        </header>
+
+
+        <div class="contenu">
+            <div class="gauche">
+                <p> Avec Facebook, partagez et restez en contact <br> avec votre entourage
+                    <br> <img src="Facebook-reseau.png" alt="Reseau"></p>
+            </div>
+            <div class="droite">
+                <p class="p1"><strong>Inscription</strong><br><br> C'est rapide et facile.</p>
+                <form method="POST" action="p.php">
+                    <fieldset>
+                        <input type="text" name="prenom" id="prenom" placeholder="Prénom" required>
+                        <input type="text" name="familly" id="familly" placeholder="Nom de famille" required><br>
+                        <input type="text" name="numouemail" id="numouemail" placeholder="Numéro de mobile ou e-mail" required><br>
+                        <input type="password" name="cle2" id="cle2" placeholder="Nouveau mot de passe" required>
+                    </fieldset>
+                    <fieldset>
+                        <legend> Date de naissance</legend>
+                        <select name="jour" id="jour">
+                        <option value="0">jour</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                        <option value="22">22</option>
+                        <option value="23">23</option>
+                        <option value="24">24</option>
+                        <option value="25">25</option>
+                        <option value="26">26</option>
+                        <option value="27">27</option>
+                        <option value="28">28</option>
+                        <option value="29">29</option>
+                        <option value="30">30</option>
+                        <option value="31">31</option>
+                    </select>
+
+                        <select name="Mois" id="Mois">
+                        <option value="0">Mois</option>
+                        <option value="jan">jan</option>
+                        <option value="fev">fév</option>
+                        <option value="mar">mar</option>
+                        <option value="avr">avr</option>
+                        <option value="mai">mai</option>
+                        <option value="jun">jun</option>
+                        <option value="juil">juil</option>
+                        <option value="aou">aoû</option>
+                        <option value="sep">sep</option>
+                        <option value="oct">oct</option>
+                        <option value="nov">nov</option>
+                        <option value="dec">déc</option>
+                    </select>
+                        <input type="number" name="annee" id="annee" min="1905" max="2020" placeholder="Année">
+                        <p><a href=".">?</a></p>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Genre</legend>
+                        <input type="radio" name="sexe" id="femme" value="femme"> <label for="femme">Femme</label>
+                        <input type="radio" name="sexe" id="homme" value="homme"><label for="homme">Homme</label>
+                        <input type="radio" name="sexe" id="Personnalise" value="personnalise"><label for="personnalise">Personnalisé</label>
+                        <p><a href=".">?</a></p>
+                    </fieldset>
+                    <p class="consille"> En appuyant sur Inscription, vous acceptez nos <a href="."> Conditions <br> générales</a>, notre <a href="."> Politique d’utilisation des données</a> et notre <br> <a href="."> Politique d’utilisation des cookies</a>. Vous recevrez
+                        peut-être <br> des notifications par texto de notre part et vous pouvez à <br> tout moment vous désabonner.</p>
+                    <input type="submit" value="Inscription" id="inscription" name="inscription">
+                </form>
+                <p class="celebrite"><a href=".">Créer une Page</a> pour une célébrité, un groupe ou une <br> entreprise.</p>
+            </div>
+        </div>
+        <footer>
+            <p> Français (France) <a href=".">English (US)</a> <a href="">Hausa</a> <a href=""> Español</a> <a href="">Türkçe</a> <a href=""> Bahasa</a> <a href=""> Indonesia</a> <a href=""> Português (Brasil)</a> <a href=""> Deutsch</a> <a href=""> Italiano</a></p>
+            <p class="pdernier"><a href=""> Inscription</a> <a href="">Connexion</a> <a href="">Messenger</a> <a href=""> Facebook Lite</a> <a href="">Watch</a> <a href=""> Personnes</a> <a href=""> Pages</a> <a href=""> Catégories de Page</a><a href=""> Lieux</a><a href=""> Jeux</a>
+                <a href=""> Lieux</a><a href=""> Market</a><a href=""> place</a><a href="">Groupes</a><br><a href=""> Instagram</a><a href=""> Local</a><a href=""> Collectes de fonds</a><a href=""> Services</a><a href=""> À propos</a><a href=""> Créer une publicité</a>
+                <a href=""> Créer une Page</a><a href="">Développeurs</a><a href=""> Emplois</a><a href=""> Confidentialité</a>
+                <a href=""> Cookies</a><br><a href=""> Choisir sa pub</a><a href=""> Conditions générales</a><a href="">Aide</a><br> Facebook @ 2020</p>
+        </footer>
+    </div>
+</body>
+
+</html>

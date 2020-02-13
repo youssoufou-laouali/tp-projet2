@@ -1,0 +1,265 @@
+header {
+    background-image: linear-gradient(to left, #FDDD95, white, #22DAFC);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header p {
+    color: white;
+}
+
+img {
+    width: 280px;
+    height: 200px;
+    border-radius: 0px 50px;
+}
+
+img:hover {
+    width: 310px;
+}
+
+#maison {
+    width: 600px;
+    height: 400px;
+    border-radius: 0px 0px 200px 200px;
+}
+
+.contenu {
+    display: flex;
+    margin: auto;
+}
+
+.localisation {
+    width: 390px;
+    height: 400px;
+    border: #EA6D10 6px groove;
+    margin-left: 0px;
+}
+
+.localisation:hover {
+    width: 410px;
+}
+
+.h2 a {
+    display: block;
+    margin-bottom: 10px;
+    color: white;
+    text-decoration: none;
+    background-color: #EA6D10;
+    border-radius: 20px;
+    width: 120px;
+    height: 20px;
+    text-align: center;
+}
+
+.h2 a:hover {
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+figcaption {
+    text-align: center;
+    position: relative;
+    top: 90px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(73, 73, 71, 0.596);
+    padding: 10px 0px;
+    width: 600px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.name,
+.description {
+    display: block;
+    font-size: 20px;
+    color: rgb(234, 109, 16);
+    font-weight: bolder;
+    margin-bottom: 0px;
+}
+
+input {
+    width: 350px;
+    height: 50px;
+    background-color: #22DAFC;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    border-radius: 0px 100px 100px 0px;
+    border: 1px groove grey;
+    margin-bottom: -8px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+input:hover,
+#butloc:hover {
+    box-shadow: rgb(234, 109, 16) 2px 2px 3px;
+    font-size: 20px;
+}
+
+#envoi,
+#butloc,
+#langue {
+    width: 150px;
+    height: 50px;
+    background-color: #22DAFC;
+    color: rgb(255, 111, 0);
+    font-size: 18px;
+    border-radius: 100px;
+    border: 3px groove grey;
+    font-weight: bold;
+    margin: 50px 0px 100px 100px;
+}
+
+.description {
+    margin: 200px 0px 0px 20px;
+    font-size: 20px;
+    width: 300px;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    line-height: 30px;
+}
+
+footer {
+    position: relative;
+    top: 100px;
+    display: flex;
+    justify-content: space-around;
+    background-image: radial-gradient(circle at center, white, rgba(234, 110, 16, 0.562));
+}
+
+.fo a {
+    margin-bottom: 20px;
+    width: 180px;
+    height: 50px;
+    padding-top: 25px;
+}
+
+#louer {
+    border-radius: 200px;
+}
+
+#depart {
+    width: 1200px;
+    background-image: linear-gradient(white, rgb(228, 217, 217), white);
+    margin: auto;
+}
+
+#arrive {
+    background-image: url(maison/p.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#contact {
+    width: 40px;
+    height: 50px;
+}
+
+#contenu2 {
+    font-size: 20px;
+    color: rgb(24, 228, 255);
+    background-color: rgba(114, 114, 114, 0.541);
+}
+
+#arrive input {
+    background-color: white;
+    color: tomato;
+}
+
+@media all and (max-width:1000px) {
+    header {
+        padding: 0px 10px;
+        margin-bottom: 10px;
+    }
+    img {
+        width: 200px;
+        height: 160px;
+    }
+    img:hover {
+        width: 210px;
+    }
+    #maison {
+        width: 500px;
+        height: 300px;
+        border-radius: 0px 0px 200px 200px;
+    }
+    .localisation {
+        display: none;
+    }
+    .h2 a {
+        margin-bottom: 5px;
+        width: 100px;
+        font-size: 11px;
+    }
+    figcaption {
+        position: relative;
+        top: 55px;
+        padding: 5px 0px;
+        width: 500px;
+        letter-spacing: 1px;
+        font-size: 11px;
+    }
+    .name,
+    .description {
+        font-size: 11px;
+    }
+    input {
+        width: 150px;
+        height: 30px;
+        font-size: 11px;
+        letter-spacing: 1px;
+    }
+    input:hover,
+    #butloc:hover {
+        font-size: 14px;
+    }
+    #envoi,
+    #butloc,
+    #langue {
+        width: 100px;
+        height: 30px;
+        font-size: 9px;
+        border: 1px groove grey;
+        margin: 10px 0px 10px 20px;
+    }
+    .description {
+        margin-top: 10px;
+        margin-left: 20px;
+        width: 150px;
+        letter-spacing: 1px;
+        word-spacing: 2px;
+        line-height: 30px;
+    }
+    #depart {
+        width: auto;
+    }
+    .fo a {
+        width: 120px;
+        height: 20px;
+        padding: 0px;
+    }
+    p {
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width:800px) {
+    #maison {
+        width: 300px;
+        height: 200px;
+    }
+    figcaption {
+        width: 300px;
+        letter-spacing: 1px;
+        font-size: 10px;
+    }
+}
